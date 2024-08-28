@@ -1,0 +1,15 @@
+{
+	"Changes": 
+    [
+		{
+            "LogName": "Lobolg Gift Taste Data",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries":
+            {
+                "CVLobolg": "This is... exquisite. I don't know what else to say! I shall cherish this gift./PurpleBook 578 837 222 394 905 268 420 226 614/Ah, what a wonderful gift. Many thanks./746 283 815 252 254 258 260 282 398 400 832 834 104 116 119 123 Book_QueenOfSauce Book_Void 444 814 632 251 -81 88 90 257 296 396 404 422 281 829 851 305 308 564 565 820 852 454 768 769 MysticSyrup 154 165 397 795 798 836 203 /I do not want this./373 209 241 244 265 403 456 457 648 MossSoup Book_Artifact Book_Bombs Book_Diamonds Book_Marlon SkillBook_3 SkillBook_4 245 262 349 351 432 766 812 879 926 CaveJelly RiverJelly SeaJelly TentKit 166 928 253 395 440 142 721 463 464/Get this out of my sight./286 287 288 158 889 890 390 298 322 323 324 325 110 111 112 118 169 -19 599 621 645 749 771/Hm... Thank you./250 284 300 376 421 591 597 337 419 767 772 100 106 109 113 122 125 128 149 155 163 269 413 437 439 680 799 800 857 446 197 206 210 219 227 229 240 242 243 605 607 649 731 DriedFruit Raisins SmokedFish 424 426 399 408 412 416 566 577 821 822 823 824 826 827 828 -2 80 82 84 86 628 629 630 631 633 835 Broccoli Powdermelon 341 96 97 98 99 22 174 176 180 184 186 436 438 442 182/"
+				
+			}
+		}
+]
+}

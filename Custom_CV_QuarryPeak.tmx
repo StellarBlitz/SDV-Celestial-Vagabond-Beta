@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="40" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="23" nextobjectid="5">
+ <tileset firstgid="1" name="summer_outdoorsTileSheet" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
+  <image source="summer_outdoorsTileSheet.png" width="400" height="1264"/>
+ </tileset>
+ <tileset firstgid="1976" name="fall_outdoorsTileSheet" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
+  <image source="fall_outdoorsTileSheet.png" width="400" height="1264"/>
+ </tileset>
+ <tileset firstgid="3951" name="winter_outdoorsTileSheet" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
+  <image source="winter_outdoorsTileSheet.png" width="400" height="1264"/>
+ </tileset>
+ <tileset firstgid="5926" name="paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source="paths.png" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="5990" name="fall_outdoorTileSheet_extra" tilewidth="16" tileheight="16" tilecount="64" columns="8">
+  <image source="fall_outdoorTileSheet_extra.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="6054" name="spring_outdoorsTileSheet2" tilewidth="16" tileheight="16" tilecount="1120" columns="16">
+  <image source="spring_outdoorsTileSheet2.png" width="256" height="1120"/>
+ </tileset>
+ <tileset firstgid="7174" name="fall_mod_lumisteria_tilesheetsoutdoor_tiles" tilewidth="16" tileheight="16" tilecount="1500" columns="25">
+  <image source="fall_mod_lumisteria_tilesheetsoutdoor_tiles.png" width="400" height="960"/>
+ </tileset>
+ <tileset firstgid="8674" name="bathhouse_tiles" tilewidth="16" tileheight="16" tilecount="240" columns="15">
+  <image source="bathhouse_tiles.png" width="240" height="256"/>
+ </tileset>
+ <tileset firstgid="8914" name="cave_daisyextras" tilewidth="16" tileheight="16" tilecount="640" columns="20">
+  <image source="cave_daisyextras.png" width="320" height="512"/>
+ </tileset>
+ <tileset firstgid="9554" name="desert_daisyextras" tilewidth="16" tileheight="16" tilecount="352" columns="16">
+  <image source="desert_daisyextras.png" width="256" height="352"/>
+ </tileset>
+ <tileset firstgid="9906" name="desert_festival_tilesheet" tilewidth="16" tileheight="16" tilecount="1088" columns="32">
+  <image source="desert_festival_tilesheet.png" width="512" height="544"/>
+ </tileset>
+ <tileset firstgid="10994" name="ElliottHouseTiles" tilewidth="16" tileheight="16" tilecount="56" columns="4">
+  <image source="ElliottHouseTiles.png" width="64" height="224"/>
+ </tileset>
+ <tileset firstgid="11050" name="fall_daisyextras" tilewidth="16" tileheight="16" tilecount="1800" columns="30">
+  <image source="fall_daisyextras.png" width="480" height="960"/>
+ </tileset>
+ <tileset firstgid="12850" name="fall_island_tilesheet_1" tilewidth="16" tileheight="16" tilecount="1280" columns="32">
+  <image source="fall_island_tilesheet_1.png" width="512" height="640"/>
+ </tileset>
+ <tileset firstgid="14130" name="fall_mod_lumisteria_tilesheetsoutdoor_buildings" tilewidth="16" tileheight="16" tilecount="1875" columns="25">
+  <image source="fall_mod_lumisteria_tilesheetsoutdoor_buildings.png" width="400" height="1200"/>
+ </tileset>
+ <tileset firstgid="16005" name="fall_mod_lumisteria_tilesheetsoutdoor_decorations" tilewidth="16" tileheight="16" tilecount="400" columns="25">
+  <image source="fall_mod_lumisteria_tilesheetsoutdoor_decorations.png" width="400" height="256"/>
+ </tileset>
+ <tileset firstgid="16405" name="fall_Shadows" tilewidth="16" tileheight="16" tilecount="475" columns="19">
+  <image source="fall_Shadows.png" width="304" height="400"/>
+ </tileset>
+ <tileset firstgid="16880" name="fall_town" tilewidth="16" tileheight="16" tilecount="2304" columns="32">
+  <image source="fall_town.png" width="512" height="1152"/>
+ </tileset>
+ <tileset firstgid="19184" name="fall_Waterfalls" tilewidth="16" tileheight="16" tilecount="900" columns="36">
+  <image source="fall_Waterfalls.png" width="576" height="400"/>
+ </tileset>
+ <tileset firstgid="20084" name="farmhouse_tiles" tilewidth="16" tileheight="16" tilecount="264" columns="12">
+  <image source="farmhouse_tiles.png" width="192" height="352"/>
+ </tileset>
+ <tileset firstgid="20348" name="FarmhouseTiles" tilewidth="16" tileheight="16" tilecount="1536" columns="32">
+  <image source="FarmhouseTiles.png" width="512" height="768"/>
+ </tileset>
+ <tileset firstgid="21884" name="FishingDerbyTiles" tilewidth="16" tileheight="16" tilecount="128" columns="8">
+  <image source="FishingDerbyTiles.png" width="128" height="256"/>
+ </tileset>
+ <tileset firstgid="22012" name="floors_2" tilewidth="16" tileheight="16" tilecount="64" columns="16">
+  <image source="floors_2.png" width="256" height="64"/>
+ </tileset>
+ <tileset firstgid="22076" name="Floors" tilewidth="16" tileheight="16" tilecount="84" columns="4">
+  <image source="Floors.png" width="64" height="336"/>
+ </tileset>
+ <tileset firstgid="22160" name="furniture_2" tilewidth="16" tileheight="16" tilecount="512" columns="16">
+  <image source="furniture_2.png" width="256" height="512"/>
+ </tileset>
+ <tileset firstgid="22672" name="furniture_2Front" tilewidth="16" tileheight="16" tilecount="512" columns="16">
+  <image source="furniture_2Front.png" width="256" height="512"/>
+ </tileset>
+ <tileset firstgid="23184" name="furniture_3" tilewidth="16" tileheight="16" tilecount="351" columns="13">
+  <image source="furniture_3.png" width="208" height="432"/>
+ </tileset>
+ <tileset firstgid="23535" name="furniture_3Front" tilewidth="16" tileheight="16" tilecount="351" columns="13">
+  <image source="furniture_3Front.png" width="208" height="432"/>
+ </tileset>
+ <tileset firstgid="23886" name="furniture" tilewidth="16" tileheight="16" tilecount="2976" columns="32">
+  <image source="furniture.png" width="512" height="1488"/>
+ </tileset>
+ <tileset firstgid="26862" name="furnitureFront" tilewidth="16" tileheight="16" tilecount="2976" columns="32">
+  <image source="furnitureFront.png" width="512" height="1488"/>
+ </tileset>
+ <tileset firstgid="29838" name="HarveyBalloonTiles" tilewidth="16" tileheight="16" tilecount="736" columns="46">
+  <image source="HarveyBalloonTiles.png" width="751" height="256"/>
+ </tileset>
+ <tileset firstgid="30574" name="indoor_daisyextras" tilewidth="16" tileheight="16" tilecount="920" columns="23">
+  <image source="indoor_daisyextras.png" width="368" height="640"/>
+ </tileset>
+ <tileset firstgid="31494" name="Island_Hut_tilesheet" tilewidth="16" tileheight="16" tilecount="288" columns="16">
+  <image source="Island_Hut_tilesheet.png" width="256" height="288"/>
+ </tileset>
+ <tileset firstgid="31782" name="island_tilesheet_1" tilewidth="16" tileheight="16" tilecount="2080" columns="32">
+  <image source="island_tilesheet_1.png" width="512" height="1040"/>
+ </tileset>
+ <tileset firstgid="33862" name="island_tilesheet_2" tilewidth="16" tileheight="16" tilecount="256" columns="32">
+  <image source="island_tilesheet_2.png" width="512" height="128"/>
+ </tileset>
+ <tileset firstgid="34118" name="junimo_furniture" tilewidth="16" tileheight="16" tilecount="351" columns="13">
+  <image source="junimo_furniture.png" width="208" height="432"/>
+ </tileset>
+ <tileset firstgid="34469" name="junimo_furnitureFront" tilewidth="16" tileheight="16" tilecount="351" columns="13">
+  <image source="junimo_furnitureFront.png" width="208" height="432"/>
+ </tileset>
+ <tileset firstgid="34820" name="lumi_towninterior_fronttiles" tilewidth="16" tileheight="16" tilecount="3425" columns="25">
+  <image source="lumi_towninterior_fronttiles.png" width="400" height="2192"/>
+ </tileset>
+ <tileset firstgid="38245" name="lumi_towninterior" tilewidth="16" tileheight="16" tilecount="3425" columns="25">
+  <image source="lumi_towninterior.png" width="400" height="2192"/>
+ </tileset>
+ <tileset firstgid="41670" name="masteryCaveTilesheet" tilewidth="16" tileheight="16" tilecount="240" columns="15">
+  <image source="masteryCaveTilesheet.png" width="240" height="256"/>
+ </tileset>
+ <tileset firstgid="41910" name="mermaid_house_tiles" tilewidth="16" tileheight="16" tilecount="117" columns="9">
+  <image source="mermaid_house_tiles.png" width="144" height="208"/>
+ </tileset>
+ <tileset firstgid="42027" name="MovieTheater_TileSheet" tilewidth="16" tileheight="16" tilecount="256" columns="16">
+  <image source="MovieTheater_TileSheet.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="42283" name="pirates_tilesheet" tilewidth="16" tileheight="16" tilecount="190" columns="19">
+  <image source="pirates_tilesheet.png" width="304" height="160"/>
+ </tileset>
+ <tileset firstgid="42473" name="retro_furniture" tilewidth="16" tileheight="16" tilecount="208" columns="13">
+  <image source="retro_furniture.png" width="208" height="265"/>
+ </tileset>
+ <tileset firstgid="42681" name="retro_furnitureFront" tilewidth="16" tileheight="16" tilecount="351" columns="13">
+  <image source="retro_furnitureFront.png" width="208" height="432"/>
+ </tileset>
+ <tileset firstgid="43032" name="samshowtiles" tilewidth="16" tileheight="16" tilecount="140" columns="10">
+  <image source="samshowtiles.png" width="160" height="224"/>
+ </tileset>
+ <tileset firstgid="43172" name="sebastianMountainTiles" tilewidth="16" tileheight="16" tilecount="1000" columns="40">
+  <image source="sebastianMountainTiles.png" width="640" height="400"/>
+ </tileset>
+ <tileset firstgid="44172" name="sebastianRideTiles" tilewidth="16" tileheight="16" tilecount="480" columns="30">
+  <image source="sebastianRideTiles.png" width="480" height="256"/>
+ </tileset>
+ <tileset firstgid="44652" name="spring_daisyextras" tilewidth="16" tileheight="16" tilecount="1800" columns="30">
+  <image source="spring_daisyextras.png" width="480" height="960"/>
+ </tileset>
+ <tileset firstgid="46452" name="spring_island_tilesheet_1" tilewidth="16" tileheight="16" tilecount="1280" columns="32">
+  <image source="spring_island_tilesheet_1.png" width="512" height="640"/>
+ </tileset>
+ <tileset firstgid="47732" name="spring_mod_lumisteria_tilesheetsoutdoor_buildings" tilewidth="16" tileheight="16" tilecount="1875" columns="25">
+  <image source="spring_mod_lumisteria_tilesheetsoutdoor_buildings.png" width="400" height="1200"/>
+ </tileset>
+ <tileset firstgid="49607" name="spring_mod_lumisteria_tilesheetsoutdoor_decorations" tilewidth="16" tileheight="16" tilecount="400" columns="25">
+  <image source="spring_mod_lumisteria_tilesheetsoutdoor_decorations.png" width="400" height="256"/>
+ </tileset>
+ <tileset firstgid="50007" name="spring_mod_lumisteria_tilesheetsoutdoor_tiles" tilewidth="16" tileheight="16" tilecount="1500" columns="25">
+  <image source="spring_mod_lumisteria_tilesheetsoutdoor_tiles.png" width="400" height="960"/>
+ </tileset>
+ <tileset firstgid="51507" name="spring_outdoorTileSheet_extra" tilewidth="16" tileheight="16" tilecount="64" columns="8">
+  <image source="spring_outdoorTileSheet_extra.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="51571" name="spring_Shadows" tilewidth="16" tileheight="16" tilecount="475" columns="19">
+  <image source="spring_Shadows.png" width="304" height="400"/>
+ </tileset>
+ <tileset firstgid="52046" name="spring_town" tilewidth="16" tileheight="16" tilecount="2304" columns="32">
+  <image source="spring_town.png" width="512" height="1152"/>
+ </tileset>
+ <tileset firstgid="54350" name="fall_outdoorsTileSheet2" tilewidth="16" tileheight="16" tilecount="1120" columns="16">
+  <image source="fall_outdoorsTileSheet2.png" width="256" height="1120"/>
+ </tileset>
+ <tileset firstgid="55470" name="spring_Waterfalls" tilewidth="16" tileheight="16" tilecount="900" columns="36">
+  <image source="spring_Waterfalls.png" width="576" height="400"/>
+ </tileset>
+ <tileset firstgid="56370" name="springobjects" tilewidth="16" tileheight="16" tilecount="936" columns="24">
+  <image source="springobjects.png" width="384" height="624"/>
+ </tileset>
+ <tileset firstgid="57306" name="submarine_tilesheet" tilewidth="16" tileheight="16" tilecount="528" columns="24">
+  <image source="submarine_tilesheet.png" width="384" height="352"/>
+ </tileset>
+ <tileset firstgid="57834" name="summer_daisyextras" tilewidth="16" tileheight="16" tilecount="1800" columns="30">
+  <image source="summer_daisyextras.png" width="480" height="960"/>
+ </tileset>
+ <tileset firstgid="59634" name="summer_mod_lumisteria_tilesheetsoutdoor_buildings" tilewidth="16" tileheight="16" tilecount="1875" columns="25">
+  <image source="summer_mod_lumisteria_tilesheetsoutdoor_buildings.png" width="400" height="1200"/>
+ </tileset>
+ <tileset firstgid="61509" name="summer_mod_lumisteria_tilesheetsoutdoor_decorations" tilewidth="16" tileheight="16" tilecount="400" columns="25">
+  <image source="summer_mod_lumisteria_tilesheetsoutdoor_decorations.png" width="400" height="256"/>
+ </tileset>
+ <tileset firstgid="61909" name="spring_outdoorsTileSheet" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
+  <image source="spring_outdoorsTileSheet.png" width="400" height="1264"/>
+ </tileset>
+ <tileset firstgid="63884" name="summer_outdoorsTileSheet2" tilewidth="16" tileheight="16" tilecount="1120" columns="16">
+  <image source="summer_outdoorsTileSheet2.png" width="256" height="1120"/>
+ </tileset>
+ <tileset firstgid="65004" name="summer_outdoorTileSheet_extra" tilewidth="16" tileheight="16" tilecount="64" columns="8">
+  <image source="summer_outdoorTileSheet_extra.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="65068" name="summer_Shadows" tilewidth="16" tileheight="16" tilecount="475" columns="19">
+  <image source="summer_Shadows.png" width="304" height="400"/>
+ </tileset>
+ <tileset firstgid="65543" name="summer_town" tilewidth="16" tileheight="16" tilecount="2304" columns="32">
+  <image source="summer_town.png" width="512" height="1152"/>
+ </tileset>
+ <tileset firstgid="67847" name="summer_Waterfalls" tilewidth="16" tileheight="16" tilecount="900" columns="36">
+  <image source="summer_Waterfalls.png" width="576" height="400"/>
+ </tileset>
+ <tileset firstgid="68747" name="TownIndoors" tilewidth="16" tileheight="16" tilecount="4352" columns="32">
+  <image source="TownIndoors.png" width="512" height="2176"/>
+ </tileset>
+ <tileset firstgid="73099" name="townInterior_2" tilewidth="16" tileheight="16" tilecount="1312" columns="32">
+  <image source="townInterior_2.png" width="512" height="656"/>
+ </tileset>
+ <tileset firstgid="74411" name="townInterior" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior.png" width="512" height="1088"/>
+ </tileset>
+ <tileset firstgid="76587" name="wallpapers_2" tilewidth="16" tileheight="16" tilecount="96" columns="16">
+  <image source="wallpapers_2.png" width="256" height="96"/>
+ </tileset>
+ <tileset firstgid="76683" name="walls_and_floors" tilewidth="16" tileheight="16" tilecount="688" columns="16">
+  <image source="walls_and_floors.png" width="256" height="688"/>
+ </tileset>
+ <tileset firstgid="77371" name="winter_daisyextras" tilewidth="16" tileheight="16" tilecount="1800" columns="30">
+  <image source="winter_daisyextras.png" width="480" height="960"/>
+ </tileset>
+ <tileset firstgid="79171" name="winter_island_tilesheet_1" tilewidth="16" tileheight="16" tilecount="1280" columns="32">
+  <image source="winter_island_tilesheet_1.png" width="512" height="640"/>
+ </tileset>
+ <tileset firstgid="80451" name="winter_mod_lumisteria_tilesheetsoutdoor_buildings" tilewidth="16" tileheight="16" tilecount="1875" columns="25">
+  <image source="winter_mod_lumisteria_tilesheetsoutdoor_buildings.png" width="400" height="1200"/>
+ </tileset>
+ <tileset firstgid="82326" name="winter_mod_lumisteria_tilesheetsoutdoor_decorations" tilewidth="16" tileheight="16" tilecount="400" columns="25">
+  <image source="winter_mod_lumisteria_tilesheetsoutdoor_decorations.png" width="400" height="256"/>
+ </tileset>
+ <tileset firstgid="82726" name="winter_mod_lumisteria_tilesheetsoutdoor_tiles" tilewidth="16" tileheight="16" tilecount="1500" columns="25">
+  <image source="winter_mod_lumisteria_tilesheetsoutdoor_tiles.png" width="400" height="960"/>
+ </tileset>
+ <tileset firstgid="84226" name="winter_outdoorsTileSheet2" tilewidth="16" tileheight="16" tilecount="1120" columns="16">
+  <image source="winter_outdoorsTileSheet2.png" width="256" height="1120"/>
+ </tileset>
+ <tileset firstgid="85346" name="winter_outdoorTileSheet_extra" tilewidth="16" tileheight="16" tilecount="64" columns="8">
+  <image source="winter_outdoorTileSheet_extra.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="85410" name="winter_Shadows" tilewidth="16" tileheight="16" tilecount="475" columns="19">
+  <image source="winter_Shadows.png" width="304" height="400"/>
+ </tileset>
+ <tileset firstgid="85885" name="winter_town" tilewidth="16" tileheight="16" tilecount="2304" columns="32">
+  <image source="winter_town.png" width="512" height="1152"/>
+ </tileset>
+ <tileset firstgid="88189" name="winter_Waterfalls" tilewidth="16" tileheight="16" tilecount="900" columns="36">
+  <image source="winter_Waterfalls.png" width="576" height="400"/>
+ </tileset>
+ <tileset firstgid="89089" name="WitchHutTiles" tilewidth="16" tileheight="16" tilecount="128" columns="8">
+  <image source="WitchHutTiles.png" width="128" height="256"/>
+ </tileset>
+ <tileset firstgid="89217" name="wizard_furniture" tilewidth="16" tileheight="16" tilecount="351" columns="13">
+  <image source="wizard_furniture.png" width="208" height="432"/>
+ </tileset>
+ <tileset firstgid="89568" name="wizard_furnitureFront" tilewidth="16" tileheight="16" tilecount="260" columns="13">
+  <image source="wizard_furnitureFront.png" width="208" height="320"/>
+ </tileset>
+ <tileset firstgid="89828" name="WizardHouseTiles" tilewidth="16" tileheight="16" tilecount="60" columns="4">
+  <image source="WizardHouseTiles.png" width="64" height="240"/>
+ </tileset>
+ <tileset firstgid="89888" name="Cursors" tilewidth="16" tileheight="16" tilecount="6204" columns="44">
+  <image source="Cursors.png" width="704" height="2256"/>
+ </tileset>
+ <tileset firstgid="96092" name="zSpring_QuarryPeak" tilewidth="16" tileheight="16" tilecount="288" columns="16">
+  <image source="Spring_QuarryPeak.png" width="256" height="288"/>
+ </tileset>
+ <layer id="1" name="Back" width="40" height="30">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,62184,62184,62184,62184,62184,62184,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,0,0,62184,62184,0,0,0,0,0,0,0,0,
+62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,0,0,0,
+62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,
+62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,
+62184,62184,62184,62184,62184,62184,62184,62084,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,
+62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62311,62184,62184,62184,62184,62061,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62331,
+62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62311,62109,62088,62089,62358,62476,62477,62311,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,
+62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62059,62184,62184,62184,62184,62184,62311,62109,62111,62136,62136,62136,62136,62136,62503,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,
+62184,62311,62311,62311,62184,62184,62234,62235,62235,62236,62311,62311,62311,62084,62084,62084,62084,62084,62084,62311,62084,62134,62136,62136,62136,62136,62136,62136,62528,62184,62184,62184,62184,62184,62184,62184,62311,62184,62184,62184,
+62184,62311,62184,62184,62234,62235,62237,62260,62260,62261,62084,62084,62084,62084,62084,62311,62084,62084,62084,62184,62084,62159,62160,6750,62136,6751,50224,50169,62084,62084,62084,62084,62084,62084,62184,62184,62184,62184,62184,62184,
+62184,62184,62234,62235,62237,62260,62260,62214,62260,62261,62084,62084,62084,62084,7103,50022,50021,50020,62084,62084,62084,62184,62084,6811,62136,62503,62084,62084,62084,62084,62084,62084,62084,62084,62311,62084,62184,62311,62184,62184,
+62235,62210,62260,62260,62260,62260,62260,62260,62262,62286,62060,62084,62084,62084,6827,62062,62136,6826,62084,62084,62184,62084,62084,6827,62136,62528,62084,62084,62084,62084,62084,62084,62084,62084,62311,62084,62184,62184,62311,62184,
+62260,62260,62213,62260,62260,62260,62260,62262,62286,62084,62084,62084,62084,50148,50124,62062,62085,62086,62088,62358,62477,62476,62114,62111,62136,50248,50019,50019,62088,62358,62358,62358,62358,62358,62084,62084,62184,62311,62311,62184,
+62260,62260,62260,62260,62260,62213,62260,62261,62084,62084,62084,62084,50245,62085,62085,62085,62136,62062,62085,62085,62085,62085,62422,62062,62085,62085,62062,62085,62085,62085,62085,62085,62085,62085,50248,50194,62184,62184,62311,62184,
+62260,62260,62260,62260,62260,62260,62187,62286,62084,62084,62084,62089,50247,62085,62140,62085,62136,62085,62085,62062,62136,62085,62062,62085,62116,62085,62397,62085,62062,62085,62062,62062,62085,62085,62085,62085,51524,62184,62184,62311,
+62260,62260,62260,62260,62260,62215,62184,62184,62084,62084,6811,62085,62085,62062,62085,62397,62085,62085,62085,62085,62085,62085,62136,62062,62085,62136,62085,62085,62085,62085,62085,62085,62062,62091,62085,62085,50147,62184,62311,62311,
+62260,62260,62260,62260,62260,62240,62184,62184,62084,62184,6827,62136,62062,62136,62085,62136,62085,62085,62138,62139,62139,62160,50044,62139,62139,62113,50096,6751,62160,62139,62160,50224,50097,50223,62160,50169,62311,62184,62311,62184,
+62260,62260,62260,62260,62262,62286,62184,62311,62184,62184,62134,62062,62062,62087,6751,62160,50224,50023,62084,62084,62184,62084,62084,62084,62084,62184,62084,62084,62084,62084,62084,62084,62084,62084,62084,62184,62184,62184,62184,62184,
+62260,62260,62209,62262,62286,62311,62184,62184,62184,62184,62134,62085,62085,51516,62084,62184,62311,62184,62184,62184,62084,62084,62184,62234,50483,62235,62235,62210,62211,62211,62212,62236,62234,62235,62235,62210,62211,62211,62212,62235,
+62260,62260,62260,62261,62184,62311,62184,62311,62184,62109,62111,62085,62115,51524,62184,62184,62311,62184,62184,62234,62235,62235,62210,62260,62260,62260,62260,62260,62260,62260,62260,62287,62237,62260,62260,62214,62260,62260,62260,62260,
+62260,62260,62260,62261,62184,62184,62311,62184,62059,62134,62135,62062,62085,6826,62184,62311,62184,62184,62234,62237,62260,62260,62260,62260,62260,62260,62260,62260,62260,62260,62260,62260,62260,62260,62260,62260,62260,62260,62260,62260,
+62260,62260,62262,62286,62184,62184,62184,62184,62184,62134,62062,62085,62136,6794,62184,62184,62184,62184,62259,62260,62260,62213,62260,62260,62260,62260,62260,62260,62260,62260,62260,62260,62260,62260,62260,62260,62260,62213,62214,62260,
+62260,62260,62261,62184,62311,62184,62184,62109,62110,62111,62062,62136,62116,6810,62184,62184,62311,62184,62284,62312,62260,62260,62260,62260,62260,62260,62260,62260,62260,62209,62260,62260,62260,62260,62260,62260,62260,62260,62260,62260,
+62260,62262,62286,62084,62084,62184,62184,62134,62085,62085,62085,62135,62062,6826,62184,62311,62184,62184,62329,62284,62185,62187,62285,62312,62260,62260,62260,62260,62260,62260,62260,62260,62260,62260,62260,62260,62262,62285,62285,62185,
+62260,62261,62084,62084,62311,62084,62184,62134,62062,62085,62140,62062,62062,62162,62184,62184,62184,62184,62184,62184,62184,62184,62184,62284,62312,62260,62260,62260,62260,62260,62260,62260,62260,62260,62260,62262,62286,62184,62184,62084
+</data>
+ </layer>
+ <objectgroup id="6" name="Back"/>
+ <layer id="7" name="Back2" width="40" height="30">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,62165,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,62165,0,0,
+0,0,0,0,0,0,0,62238,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,62165,62562,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,96182,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,62238,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,62238,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,62238,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,62238,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,62238,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,62238,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+62238,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,62238,0,0,0,0,0,0,0,0,62238,0,0,62238,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,62165,0,0,0,0,0,0,62238,0,0,0,0,0,0,0,0,0,0,0,0,62238,0,0,0,0,
+0,0,0,62165,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,62238,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="8" name="Back2"/>
+ <layer id="2" name="Buildings" width="40" height="30">
+  <data encoding="csv">
+62427,62427,62427,62427,62427,62427,62427,62427,62423,62423,62423,62423,62423,62423,62376,62376,62376,62255,62376,62376,62376,62376,62199,62200,62255,62255,62327,62327,62327,62484,62484,62484,62484,62484,62254,62426,62426,62254,62255,62255,
+62427,62427,62255,62427,62254,62254,62427,62423,62326,62423,62376,62376,62376,62376,62376,62376,62376,62376,62402,62401,62276,62401,62224,62379,62358,62358,62358,62358,62358,62358,62205,62376,62376,62199,62254,62254,62254,62255,62427,62255,
+62254,62326,62326,62326,62254,62427,62249,62249,62376,62376,62401,62401,62401,62401,62401,62401,62401,62401,62401,62401,62255,62401,62402,62401,62402,62401,62276,62230,62402,62230,62402,62401,62230,62402,62376,62376,62424,62255,62255,62255,
+62426,62426,62376,62376,62376,62376,62376,62376,62401,62401,62401,62249,62326,62426,62326,62426,62426,62426,62426,62426,62426,62426,62255,62255,62427,62255,62427,62401,62230,62401,62427,62427,62230,62404,62401,62376,62376,62376,62376,62255,
+62376,62376,62401,62401,62401,62401,62401,62401,62401,62326,62426,62426,62249,62426,62426,62426,62426,62249,62426,62426,62426,62426,62255,62255,62255,62254,62254,62327,62427,62424,62424,62327,62427,62484,62402,62401,62401,62376,62376,62376,
+62377,62401,62401,62426,62426,62326,62249,62255,62326,62326,62427,62427,62426,62249,62326,62427,62249,62249,62305,62279,62451,62452,62454,62456,62427,62254,62327,62327,62327,62426,62426,62424,62424,62426,62424,62254,62401,62402,62402,62401,
+62427,62427,62254,62326,62326,62423,62427,62427,62424,62427,62427,62427,62426,62249,62426,62258,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,62254,62326,62326,62427,62326,
+62255,62423,62426,62326,62426,62427,62258,62407,62449,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,62327,62327,62254,
+62254,62426,62429,62254,62451,62452,62274,62351,0,0,0,0,0,0,0,0,0,0,0,52846,52847,52847,52847,52847,52847,52847,52847,52847,52847,52848,0,0,0,0,0,0,0,0,0,0,
+62427,62254,62427,62407,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,52878,52879,52879,52879,52879,52879,52879,52879,52879,52879,52880,0,0,0,0,0,0,0,0,0,0,
+62427,62424,62427,62428,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,52910,0,0,0,0,0,0,0,0,0,52912,0,0,0,0,0,0,0,0,0,0,
+62351,62279,62449,62453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,52910,0,0,0,0,0,0,0,0,0,52912,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,52910,0,0,0,0,0,0,0,0,0,52912,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,52910,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,52910,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,52942,52943,52943,52943,52914,0,52914,52943,52943,52943,96183,96184,96185,96186,96187,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,52974,52975,52975,52975,52946,0,52946,52975,52975,52975,96199,96200,96201,96202,96203,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,96214,96215,96216,96217,96218,96219,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="9" name="Buildings">
+  <object id="4" name="TileData" x="512.308" y="256.538" width="15" height="15">
+   <properties>
+    <property name="Action" value="LockedDoorWarp"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="10" name="Buildings2" width="40" height="30">
+  <data encoding="csv">
+62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62353,62204,0,0,0,0,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,
+62184,62184,62184,62184,62184,62184,62184,62184,62184,62184,62205,62204,62377,62204,0,62377,0,0,62378,0,62402,0,0,0,0,0,0,0,0,0,0,0,0,0,62184,62184,62184,62184,62184,62184,
+62184,62184,62184,62184,62184,62184,62184,62184,62353,0,62276,62224,62276,62302,62402,0,62302,62402,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,62184,62184,62184,62184,
+62084,62203,62204,0,62377,62377,0,0,62378,0,0,62706,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,62184,
+62084,62353,0,62276,0,0,0,6058,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,62378,0,0,62357,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+62233,62403,0,62427,62429,0,0,0,0,0,0,0,0,0,0,0,6573,62453,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+62427,62428,6057,62426,0,0,0,0,0,6506,6551,6552,6553,6552,6711,6712,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+62427,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,62357,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,62746,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,62771,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+49769,49770,49771,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+49794,49795,49796,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,62270,
+0,49820,49821,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,96182,0,0,0,0,0,0,0,0,0,0,62295,
+62270,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44928,49624,45051,0,0,63751,0,0,0,0,62295,
+62295,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44958,49649,45081,0,0,63776,0,0,0,0,62320,
+62295,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,62320,
+62295,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,62320,
+62295,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,62320,
+62295,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,62320,
+62295,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,62345,
+62295,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+62295,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,62270,
+62345,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,62295,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,62295,
+62270,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,62345,
+62320,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+62345,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,62270
+</data>
+ </layer>
+ <objectgroup id="11" name="Buildings2"/>
+ <layer id="4" name="Front" width="40" height="30">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,96166,96167,96168,96169,96170,96171,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,96198,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="13" name="Front"/>
+ <layer id="3" name="Paths" width="40" height="30">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5937,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5952,0,0,
+0,0,0,0,0,0,0,5937,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5951,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,5937,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,5937,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,5951,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,5952,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5951,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5937,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5937,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+5951,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5952,0,0,0,0,0,0,0,0,5937,0,0,5952,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5951,0,0,0,0,0,0,5951,0,0,0,0,0,0,0,0,0,0,0,0,5952,0,0,0,0,
+0,0,0,5950,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5951,0,0,0,0,0,0,0,5950,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="12" name="Paths"/>
+ <layer id="5" name="AlwaysFront" width="40" height="30">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,96104,96105,96106,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,96119,96120,96121,96122,96123,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,96134,96135,96136,96137,96138,96139,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,96150,96151,96152,96153,96154,96155,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="22" name="AlwaysFront"/>
+</map>

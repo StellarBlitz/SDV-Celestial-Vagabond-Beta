@@ -1,0 +1,19 @@
+
+
+	  {
+"Changes":
+	[
+ 
+   	 {
+        	"LogName": "Lobolg Schedule",
+        	"Action": "EditData",
+        	"Target": "Characters/schedules/CVLobolg",
+   		 "Entries": {
+   			 
+   			 "rain": "610 BusStop 21 13 1",
+   			 "spring": "610 BusStop 21 13 1",
+   			 
+   		 },
+    	},
+],
+}

@@ -1,0 +1,47 @@
+{
+    
+	"Format": "2.0.0", 
+
+"Changes":
+	[  	 {
+        "LogName": "Blank JSON load", 
+        "Action": "Load",
+        "Target": "Characters/Dialogue/CVLobolg, Characters/schedules/CVLobolg, Strings/schedules/CVLobolg",
+        "FromFile": "assets/data/blank.json" 
+    },
+
+    {
+    "LogName": "Lobolg Disposition",
+    "Action": "Include",
+    "FromFile": "assets/data/dispos.json"
+},
+    {
+    "LogName": "Base Portraits",
+    "Action": "Load",
+    "Target": "Portraits/CVLobolg",
+    "FromFile": "assets/images/CVLobolg_Spring.png"
+},
+{
+    "LogName": "Base Portraits",
+    "Action": "Load",
+    "Target": "Characters/CVLobolg",
+    "FromFile": "assets/images/CVLobolgSpringSprites.png"
+},
+
+{
+    "LogName": "NPC Dialogue",
+    "Action": "Include",
+    "FromFile": "assets/data/dialogue.json"
+},
+{
+    "LogName": "Gift Tastes Include",
+    "Action": "Include",
+    "FromFile": "assets/data/gifttastes.json"
+},
+{
+    "LogName": "NPC Schedule",
+    "Action": "Include",
+    "FromFile": "assets/data/schedule.json"
+}
+]
+}

@@ -1,0 +1,47 @@
+{
+    "Changes": [
+   	 
+   	 {
+   		 "Action": "EditData",
+   		 "Target": "Data/Characters",
+   		 "Entries": {
+   			 "CVLobolg": {
+   				 "DisplayName": "Lobolg",
+   				 "Gender": "Male", 
+   				 "Age": "Adult", 
+   				 "Manner": "Polite", 
+   				 "SocialAnxiety": "outgoing",
+   				 "Optimism": "negative", 
+   				 "BirthSeason": "summer", 
+   				 "BirthDay": "7", 
+   				 "HomeRegion": "Town", 
+   				 "CanBeRomanced": false, 
+    				"CanVisitIsland": false, 
+   				 "SpouseAdopts": true, 
+   				 "IntroductionsQuest": false, 
+   				 "ItemDeliveryQuests": true, 
+   				 "WinterStarParticipant": true, 
+                 "Calendar": "HiddenUntilMet",
+                 "SocialTab": "HiddenUntilMet",
+                 "DumpsterDiveEmote": 40,
+                 "DumpsterDiveFriendshipEffect": 20,
+				 "UnlockConditions": "PLAYER_HAS_MAIL Host ccCraftsRoom",
+				 "SpawnIfMissing": true,
+				 
+   				 
+   				 "Home": [
+   					 {
+   						 "Id": "Default",
+   						 "Location": "BusStop",
+   						 "Tile": {
+   							 "X": 21,
+   							 "Y": 13
+   						 },
+   						 "Direction": "right"
+   					 }
+   				 ]
+   			 }    
+   		 }
+   	 }
+    ]
+}

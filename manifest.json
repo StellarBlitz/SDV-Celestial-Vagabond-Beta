@@ -1,0 +1,21 @@
+ 
+{
+  "Name": "The Celestial Vagabond- Lobolg Custom NPC",
+  "Author": "StellarBlitz",
+  "Version": "1.0.0",
+  "Description": "Adds Lobolg as a custom NPC, alongside a new area above the Quarry and new items.",
+  "UniqueID": "stellarblitz.celestialvagabond",
+  "UpdateKeys": [""],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+   "Dependencies": [
+    {
+      "UniqueID": "Lumisteria.TilesheetsOutdoor",
+      "IsRequired": true,
+      "UniqueID": "Lumisteria.LumiTilesheetsIndoor",
+      "IsRequired": true
+   }
+   ]
+  
+}
